@@ -1,0 +1,198 @@
+---
+title: "Enjeux de la donnée"
+subtitle: ""
+author: "Joël Gombin, Datactivist"
+date: "Métropole Aix Marseille Provence, le 4 octobre 2019"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      beforeInit: "macros.js"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+params:
+  event: Séminaire de direction AMP 
+  slug: amp
+---
+
+layout: true
+
+<style>
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: #e95459;
+}
+
+</style>
+
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")`
+
+
+---
+
+class: center, middle
+
+Ces slides en ligne : `r paste0("http://datactivist.coop/", params$slug)`
+
+Sources : `r paste0("https://github.com/datactivist/", params$slug)`
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+<BR>
+<BR>
+
+![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
+
+---
+## Qui sommes nous ?
+
+<BR><BR><BR>
+
+.center[[![:largeur 80%](https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png)](https://datactivist.coop)]
+
+### We .red[open data], we make them .red[useful]
+
+---
+## La révolution des données 
+
+<BR><BR>
+
+> En 2020, le volume des données produites en
+une seule journée pour la gestion des villes
+européennes, sera 4 fois supérieur à celui des
+données produites pour toute l’année 2015.
+
+_Source : McKinsey, 2016_
+
+---
+## C'est la donnée qui dirige le monde...
+
+.center[[![](./img/waze.png)](http://www.leparisien.fr/info-paris-ile-de-france-oise/transports/circulation-waze-l-appli-qui-agace-les-riverains-04-06-2018-7752765.php)]
+
+.center[[![](./img/airbnb.png)](https://www.lexpress.fr/actualite/immobilier/paris-l-elu-ian-brossat-veut-interdire-airbnb-dans-le-centre-historique_2034009.html)]
+
+---
+## C'est la donnée qui dirige le monde...
+
+.center[[![](./img/toronto.png)](https://www.lagazettedescommunes.com/625064/la-ville-selon-google-est-elle-transposable-en-france/)]
+
+---
+class: inverse, center, middle
+# Cinq enjeux stratégiques
+
+
+---
+class: center, middle
+
+## La régulation et la souveraineté
+
+???
+
+Partenariats Waze OM et région Sud
+AirBnb
+Connaissance du territoire, cartographie (google maps, quelle place pour l'IGN ?)
+
+Code is law ; data is law ?
+
+---
+class: center, middle
+
+## La qualité et l'efficience de l'action et du service publics
+
+???
+
+smart city / IoT
+ex : eau, éclairage public, mobilité...
+
+
+---
+class: center, middle
+
+## L'irrigation du territoire
+
+### économique, mais aussi sociale, sociétale, environnementale... 
+
+### Pas d'écosystème sans données. 
+
+???
+
+ex : DVF, applis mobilités, canne blanche connectée, 
+
+---
+class: center, middle
+
+## Le pilotage de la collectivité
+
+### L'exemple de la commande publique
+
+???
+
+on ne sait pas exactement à combien s'élève la commande publique en France
+le pilotage de la commande publique est très difficile
+enjeu d'achat au meilleur prix, mais aussi de prévisions, etc.
+
+
+---
+class: center, middle
+
+## La transformation de l'administration
+
+???
+
+- transversalité
+- gains d'efficience
+- montée en compétence
+- agilité
+- référentiels
+
+---
+## Les conditions de réussite 
+
+- Développer et partager une culture de la donnée
+
+- Poser des principes, une stratégie, des objectifs
+
+- Travailler en transversalité, avec un portage au plus haut niveau
+
+- Travailler étroitement avec ses communautés
+
+
+---
+class: center, middle
+
+## En bref : la donnée n'est PAS une question technique. 
+
+## C'est avant tout une question stratégique !
+
+
+
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [joel@datactivist.coop](mailto:joel@datactivist.coop)
