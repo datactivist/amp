@@ -2,7 +2,7 @@
 title: "Enjeux de la donnée"
 subtitle: ""
 author: "Joël Gombin, Datactivist"
-date: "Métropole Aix Marseille Provence, le 4 octobre 2019"
+date: "Métropole AMP, le 4 octobre 2019"
 output:
   SlidesDatactivist::moon_reader:
     css: [default, datactivist, datactivist-fonts]
@@ -115,7 +115,7 @@ Partenariats Waze OM et région Sud
 AirBnb
 Connaissance du territoire, cartographie (google maps, quelle place pour l'IGN ?)
 
-Code is law ; data is law ?
+Code is law (Lessig) ; data is law ?
 
 ---
 class: center, middle
@@ -125,6 +125,7 @@ class: center, middle
 ???
 
 smart city / IoT
+
 ex : eau, éclairage public, mobilité...
 
 
@@ -151,7 +152,9 @@ class: center, middle
 ???
 
 on ne sait pas exactement à combien s'élève la commande publique en France
+
 le pilotage de la commande publique est très difficile
+
 enjeu d'achat au meilleur prix, mais aussi de prévisions, etc.
 
 
